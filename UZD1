@@ -1,6 +1,0 @@
-%%1.uzdevums
-clc, clearvars, format compact
-syms x
-f = @(x)(atan(sqrt(x))^3)/(x^2)+(log(cot(5*x)))/(3*x*sqrt(x))
-f_skver=f(0.5)
-f_prver=f(sym(0.5))
