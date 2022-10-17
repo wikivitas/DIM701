@@ -19,7 +19,7 @@ if rank(A)==rank(AB) && rank(AB)==length(AB(1,:)) && rank(AB)==length(AB(1,:))
     X=A\B 
 end
 if rank(A)~=rank(AB)
-    disp('Sistēma ir saderīga un noteikta')
+    disp('Sistēma ir nesaderīga un nenoteikta')
 end
     
 %% 3. uzdevums
